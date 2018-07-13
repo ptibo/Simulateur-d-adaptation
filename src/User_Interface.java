@@ -1276,7 +1276,7 @@ public class User_Interface extends JFrame {
 		
 		if(rule_exist()) {
 			option = JOptionPane.showOptionDialog(null,
-					"Êtes-vous sûr de vouloir supprimer la règle associée à ce contexte ?\n\n"+chosen_modalities(get_existing_rule().split(" ")),
+					"Êtes-vous sûr de vouloir supprimer la règle associée à ce contexte ?\n\nRègle actuelle : \n"+chosen_modalities(get_existing_rule().split(" ")),
 					"Suppresion de règle",
 					JOptionPane.YES_NO_OPTION,
 					JOptionPane.QUESTION_MESSAGE, null, null, null);
